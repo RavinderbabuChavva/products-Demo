@@ -1,0 +1,109 @@
+.total {
+	position: relative;
+	min-height: 1px;
+	float: left;
+	width: 100%;
+}
+
+.insideDiv {
+	position: relative;
+	min-height: 1px;
+	width: 33.333%;
+	float: left;
+}
+
+.sProduct {
+	width: 97%;
+	margin: auto;
+	margin-top: 21px;
+	border: 2px solid #999797;
+	height: 234px;
+	background: #ccc;
+	text-align: center;
+}
+
+.product {
+	position: relative;
+	min-height: 1px;
+	width: 92%;
+	border: 2px solid #999797;
+	margin: auto;
+	margin-top: 28px;
+	text-align: center;
+	background: #e3e1e1;
+}
+
+.productImg {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.productImg:HOVER {
+	cursor: pointer;
+	box-shadow: 4px 4px 4px #5d5a5a;
+}
+
+.viewMore {
+	width: 82%;
+	margin: auto;
+	margin-bottom: 19px;
+	font-size: 18px;
+	font-family: sans-serif;
+	background: #959595;
+	border: 2px solid #515050;
+	padding: 6px;
+}
+
+.viewMore:hover {
+	cursor: pointer;
+}
+
+.insideDiv1 {
+	position: relative;
+	min-height: 1px;
+	width: 20%;
+	float: left;
+}
+
+.insideDiv2 {
+	position: relative;
+	min-height: 1px;
+	width: 60%;
+	float: left;
+}
+
+@media ( max-width : 480px) {
+	.total {
+		float: left;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+	.sProduct {
+		width: 97%;
+		margin: auto;
+		margin-top: 21px;
+		border: 2px solid #999797;
+		height: 690px;
+		background: #ccc;
+		text-align: center;
+	}
+	.insideDiv {
+		float: left;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+	.insideDiv1 {
+		float: left;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+	.insideDiv2 {
+		float: left;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+}
